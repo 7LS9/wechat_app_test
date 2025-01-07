@@ -1,0 +1,6 @@
+<!--pages/new/new.wxml-->
+
+<button bindtap='getMessage'>获取信息</button>
+<view wx:for="{{list}}">
+    {{item}}
+</view>
